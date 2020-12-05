@@ -19,7 +19,7 @@ Step 6: Activate your virtual environment: source /ENV/bin/activate
 
 Step 7: Copy repository from git: git clone this repo
 
-Step 8: Navigate to HH directory to run requirement.txt file. This will install all the other extensions and shells required to run the code.(sudo apt install -r requirement.txt)
+Step 8: Navigate to HH directory to run requirement.txt file. This will install all the other extensions and shells required to run the code.(pip3 install -r requirement.txt)
 
 Step 9: Install postgres sql for database server: sudo apt-get install postgres or sudo -u postgres psql 
 
